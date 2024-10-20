@@ -1,0 +1,12 @@
+NAME="RupeeOS"
+PRETTY_NAME="RupeeOS"
+ID="rupeeos"
+ID_LIKE="arch"
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/RupeeOS/rupeeos-archiso"
+DOCUMENTATION_URL="https://github.com/RupeeOS/rupeeos-archiso"
+SUPPORT_URL="https://github.com/RupeeOS/rupeeos-archiso"
+BUG_REPORT_URL="https://github.com/RupeeOS/rupeeos-archiso"
+PRIVACY_POLICY_URL="https://github.com/RupeeOS/rupeeos-archiso"
+LOGO="RupeeOS-hello"
