@@ -32,7 +32,7 @@ f2fs-tools
 fatresize
 foot-terminfo
 fsarchiver
-gnu-netcat
+#gnu-netcat
 gpart
 gpm
 gptfdisk
@@ -127,3 +127,23 @@ wvdial
 xfsprogs
 xl2tpd
 zsh
+# Mate Desktop
+mate
+mate-extra
+
+# Xorg packages
+xorg-server
+xorg-apps
+xorg-xinit
+xf86-video-vesa
+
+# Display Manager and Calamares
+lightdm
+lightdm-gtk-greeter
+qt5-base
+qt5-declarative
+arch-install-scripts
+
+
+
+
