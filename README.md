@@ -10,7 +10,6 @@ In order to build the rupeeos in arch linux, follow below-
 sudo pacman -S archiso
 mkdir iso
 cd iso
-mkdir rupeeto
 git@github.com:Rupeeto/rupeeto-iso.git
 mv rupeeto-iso releng
 sudo mkarchiso -v -w ~/iso/releng/output/ -o ~/iso/releng/output/ releng/
