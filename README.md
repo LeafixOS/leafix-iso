@@ -12,7 +12,7 @@ mkdir iso
 cd iso
 mkdir rupeeto
 git@github.com:Rupeeto/rupeeto-iso.git
-mv rupeeos-iso releng
+mv rupeeto-iso releng
 sudo mkarchiso -v -w ~/iso/rupeeto/output-241110/ -o ~/iso/rupeeto/output-241110/ releng/
 ```
 
