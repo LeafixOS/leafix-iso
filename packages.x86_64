@@ -91,6 +91,7 @@ pcsclite
 ppp
 pptpclient
 pv
+plymouth
 qemu-guest-agent
 refind
 reflector
@@ -132,10 +133,14 @@ mate
 mate-extra
 
 # Xorg packages
+dbus
+xorg
 xorg-server
-xorg-apps
 xorg-xinit
-xf86-video-vesa
+mesa
+xfce4
+xfce4-goodies
+
 
 # Display Manager and Calamares
 lightdm
@@ -143,6 +148,11 @@ lightdm-gtk-greeter
 qt5-base
 qt5-declarative
 arch-install-scripts
+
+#xfce
+mesa
+xfce4
+xfce4-goodies
 
 
 

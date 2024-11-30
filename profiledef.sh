@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="rupeeos"
-iso_label="rupeeos_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="Rupeeos Linux <https://github.com/RupeeOS/rupeeos-archiso>"
-iso_application="Rupeeos Linux Live/Rescue DVD"
+iso_name="rupeeto"
+iso_label="rupeeto_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="Rupeeto Linux <https://github.com/Rupeeto>"
+iso_application="Rupeeto Linux Live/Rescue DVD"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
@@ -25,4 +25,6 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
+  ["/root/setup_gui.sh"]="0:0:755"
+  ["/etc/skel/.xinitrc"]="0:0:644"
 )
