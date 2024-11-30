@@ -11,7 +11,7 @@ sudo pacman -S archiso
 mkdir iso
 cd iso
 mkdir rupeeto
-git clone git@github.com:RupeeOS/rupeeto-iso.git
+git@github.com:Rupeeto/rupeeto-iso.git
 mv rupeeos-iso releng
 sudo mkarchiso -v -w ~/iso/rupeeto/output-241110/ -o ~/iso/rupeeto/output-241110/ releng/
 ```
