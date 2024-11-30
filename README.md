@@ -13,11 +13,11 @@ cd iso
 mkdir rupeeto
 git@github.com:Rupeeto/rupeeto-iso.git
 mv rupeeto-iso releng
-sudo mkarchiso -v -w ~/iso/rupeeto/output-241110/ -o ~/iso/rupeeto/output-241110/ releng/
+sudo mkarchiso -v -w ~/iso/releng/output/ -o ~/iso/releng/output/ releng/
 ```
 
 Sample output-
 ```txt
 [mkiso] INFO: Done!
-1.2G	/home/sauahuja/iso/rupeeto/output-241020/rupeeto-2024.10.20-x86_64.iso
+1.2G	/home/sauahuja/iso/rupeeto/output/rupeeto-2024.10.20-x86_64.iso
 ```
