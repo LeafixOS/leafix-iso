@@ -1,4 +1,4 @@
-# maaos-iso
+# leafix-iso
 This is India Origin Leafix Operating System based on Arch Linux (and archiso software)  
 User: rupeeos
 password: Welcome1
