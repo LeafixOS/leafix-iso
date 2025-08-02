@@ -5,7 +5,7 @@ password: Welcome1
 
 References:  
 [ArchIso](https://wiki.archlinux.org/title/Archiso)
-In order to build the rupeeos in arch linux, follow below-
+In order to build the maaos in arch linux, follow below-
 ```bash
 sudo pacman -S archiso
 mkdir iso
