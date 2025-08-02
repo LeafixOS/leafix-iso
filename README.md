@@ -18,5 +18,5 @@ sudo mkarchiso -v -w ~/iso/releng/output/ -o ~/iso/releng/output/ releng/
 Sample output-
 ```txt
 [mkiso] INFO: Done!
-1.2G	/home/sauahuja/iso/maaos/output/maaos-2024.10.20-x86_64.iso
+1.2G	/home/sauahuja/iso/maaos/output/leafix-2024.10.20-x86_64.iso
 ```
