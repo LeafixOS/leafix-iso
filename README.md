@@ -1,5 +1,5 @@
-# rupeeto-iso
-This is India Origin Rupeeto Operating System based on Arch Linux (and archiso software)  
+# maaos-iso
+This is India Origin MaaOS Operating System based on Arch Linux (and archiso software)  
 User: rupeeos
 password: Welcome1
 
@@ -10,13 +10,13 @@ In order to build the rupeeos in arch linux, follow below-
 sudo pacman -S archiso
 mkdir iso
 cd iso
-git@github.com:Rupeeto/rupeeto-iso.git
-mv rupeeto-iso releng
+git@github.com:maaoslinux/maaos-iso.git
+mv maaos-iso releng
 sudo mkarchiso -v -w ~/iso/releng/output/ -o ~/iso/releng/output/ releng/
 ```
 
 Sample output-
 ```txt
 [mkiso] INFO: Done!
-1.2G	/home/sauahuja/iso/rupeeto/output/rupeeto-2024.10.20-x86_64.iso
+1.2G	/home/sauahuja/iso/maaos/output/maaos-2024.10.20-x86_64.iso
 ```
