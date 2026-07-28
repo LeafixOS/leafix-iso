@@ -1,22 +1,37 @@
-# leafix-iso
-This is India Origin Leafix Operating System based on Arch Linux (and archiso software)  
-User: rupeeos
-password: Welcome1
+# Leafix OS ISO (Arch-based) — India-origin desktop experiment
 
-References:  
-[ArchIso](https://wiki.archlinux.org/title/Archiso)
-In order to build the leafix in arch linux, follow below-
+**Leafix OS** is an experimental **Arch Linux**–based live/install image built with [archiso](https://wiki.archlinux.org/title/Archiso). This repository holds the ISO build configuration for the [LeafixOS](https://github.com/LeafixOS) organization.
+
+> Status: community experiment · Not a production distro · Default live credentials below are for lab use only — **change immediately** after install.
+
+## Default live credentials (lab only)
+
+| Field | Value |
+|-------|--------|
+| User | `rupeeos` |
+| Password | `Welcome1` |
+
+**Security:** Treat these as demo defaults. Do not expose an unpatched live image to the public internet.
+
+## Build on Arch Linux
+
 ```bash
 sudo pacman -S archiso
-mkdir iso
-cd iso
-git@github.com:leafixos/leafix-iso.git
-mv leafix-iso releng
-sudo mkarchiso -v -w ~/iso/releng/output/ -o ~/iso/releng/output/ releng/
+# then follow the archiso workflow for this profile (see archiso docs)
 ```
 
-Sample output-
-```txt
-[mkiso] INFO: Done!
-1.2G	/home/sauahuja/iso/maaos/output/leafix-2024.10.20-x86_64.iso
-```
+References: [Archiso wiki](https://wiki.archlinux.org/title/Archiso)
+
+## Related
+
+- Org: [LeafixOS](https://github.com/LeafixOS)
+- Forum: [leafix-forum](https://github.com/LeafixOS/leafix-forum)
+- Broader learning hub: [saurabhahuja71/learning-path](https://github.com/saurabhahuja71/learning-path) (organizations review)
+
+## Topics / SEO tags
+
+`arch-linux` `archiso` `linux-distribution` `iso` `leafix` `desktop-linux` `india` `tutorial`
+
+## License
+
+See repository files for license terms.
